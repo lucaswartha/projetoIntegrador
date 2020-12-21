@@ -1,0 +1,8 @@
+.fonts h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+}
+
+.fonts a {
+  color: rgb(97, 59, 184);
+}

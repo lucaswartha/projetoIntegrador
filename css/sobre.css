@@ -1,0 +1,45 @@
+.page-sobre-sobre {
+  background-color: #181818;
+  border-radius: 15px;
+  height: 150px;
+  width: 500px;
+}
+
+.page-sobre-sobre h1 {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+#map {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.map-container {
+  width: 10rem;
+  float: bottom;
+  margin-left: 100px;
+}
+
+.page-sobre-video {
+  float: right;
+  margin-top: 200px;
+  margin-right: 100px;
+}
+
+.page-sobre-box {
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.page-sobre-local h1 {
+  font-family: "Roboto", sans-serif;
+  margin-left: 120px;
+}

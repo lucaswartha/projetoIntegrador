@@ -1,0 +1,226 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-principal {
+  background-color: #181818;
+  height: 7vw;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+}
+
+.logo a {
+  margin-left: 50px;
+  float: left;
+  width: 5%;
+}
+
+.logo img {
+  height: 9vh;
+  width: 6vw;
+}
+
+.whatsapp ul li {
+  display: inline-block;
+}
+
+.ul-whatsapp {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.whatsapp {
+  width: 8%;
+  float: right;
+  align-items: center;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-top: 1.5vh;
+}
+
+.menu a {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vw;
+  text-decoration: none;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.menu ul li a:hover {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: #b42121;
+  border-width: 1px;
+}
+
+.col-100 {
+  width: 99vw;
+  float: right;
+  height: 100%;
+  margin: 0px;
+}
+
+.ul-menu a {
+  margin-left: 5rem;
+  padding-left: 0px;
+}
+
+.menu ul li a:hover {
+  color: #b42121;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  margin-top: 4rem;
+  float: right;
+  margin-bottom: 3rem;
+}
+
+.options a {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-decoration: none;
+  border-bottom: hidden;
+  text-align: center;
+}
+
+.options a:hover {
+  border-bottom: solid;
+  border-color: #b42121;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.options li {
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+}
+
+.options ul {
+  padding: 0px;
+}
+
+.options h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: gray;
+  padding: 0px;
+}
+
+.options strong {
+  color: #181818;
+}
+
+.enunciado h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 35rem;
+  color: black;
+  font-size: 50px;
+}
+
+.footer {
+  background-color: #181818;
+  height: 8rem;
+}
+
+.github {
+  float: left;
+  margin-left: 15rem;
+  margin-top: 1rem;
+}
+
+.github h2 {
+  float: left;
+  font-size: 2rem;
+  margin-right: 10px;
+  margin-top: 25px;
+  font-family: "Cuprum", sans-serif;
+  color: white;
+}
+
+.notepad {
+  float: right;
+  margin-right: 23rem;
+  margin-top: 2rem;
+}
+
+.notepad h2 {
+  float: right;
+  font-size: 2rem;
+  margin-left: 10px;
+  font-family: "Cuprum", sans-serif;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.info-footer p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-items: center;
+  margin-left: 470px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu a {
+    font-size: 0.5rem;
+  }
+  .logo img,
+  .whatsapp img {
+    height: 30px;
+  }
+  .banner {
+    margin-left: 50px;
+  }
+  .enunciado h1 {
+    font-size: 30px;
+    margin-left: 330px;
+  }
+  .options img {
+    width: 100%;
+  }
+  .options li {
+    margin: 0px;
+    grid-template-columns: auto auto;
+    display: grid;
+  }
+  .logo {
+    float: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-principal {
+    width: 768px;
+  }
+  .github,
+  .info-footer p {
+    margin-right: 60px;
+    margin-left: 10px;
+  }
+  .notepad {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+  .ul-menu li {
+    position: relative;
+    float: left;
+  }
+}
